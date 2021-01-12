@@ -3,3 +3,6 @@ Description=Update the blocklist from blocklists.de
 
 [Service]
 ExecStart=/root/blocklists-ipset.py
+
+[Install]
+WantedBy=multi-user.target
